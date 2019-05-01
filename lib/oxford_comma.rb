@@ -8,6 +8,6 @@ def oxford_comma(array)
     array.insert(3, ", and ")
     array.join
   else array.length > 3
-    array.join
+    array.join(", ")
   end
 end
